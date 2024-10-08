@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%, -50%);
+  max-width: 450px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.text-content {
+  padding: 7%;
+  text-align: center;
+}
+
+.text-header {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  /* font-size: 32px; */
+  margin-bottom: 20px;
+}
+
+.text-paragrap {
+  color: #8a8a8a;
+  margin-bottom: 25px;
+}
+
+.box-1 {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+  padding: 25px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text-left {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.text-box-left {
+  margin-left: 20px;
+  color: hsl(223, 47%, 23%);
+}
+
+.text-box-left p {
+  color: #8a8a8a;
+}
+
+.box-1 a {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+
+.box-1 a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
+}
+
+.proceed-btn {
+  display: block;
+  text-decoration: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 20px 0;
+  border-radius: 12px;
+  margin: 30px 0;
+  font-weight: 900;
+}
+
+.proceed-btn:hover {
+  background-color: hsl(245, 41%, 36%);
+  transition: color 0.3s ease;
+}
+
+.cancel-btn {
+  text-decoration: none;
+  font-weight: 900;
+  color: #8a8a8a;
+}
+
+a.cancel-btn:hover {
+  color: hsl(245, 75%, 52%);
+}
